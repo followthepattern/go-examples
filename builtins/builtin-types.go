@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func BuiltInExample() {
+func BuiltInExamples() {
 	// you can declare a type and give value later
 	var value1 string
 	value1 = "hello"
