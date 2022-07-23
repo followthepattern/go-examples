@@ -3,4 +3,6 @@ In this package you can find practical example of how to mock interfaces, which 
 
 `interface` package has interfaces I copied from different libraries as examples you can give it to mockgen to generate mocks.
 
-[mocks.go](./mocks.go) file contains commands to specify the interfaces for mock generation as comments. It can be executed in terminal as well `mockgen -destination=./io.go -package=mocks -source=../interfaces/io.go Reader,Writer`.
+[mocks.go](./mocks.go) file contains commands to specify the interfaces for mock generation as comments. It can be executed in terminal as well `mockgen -destination=./io.go -package=mocks -source=../interfaces/io.go Reader,Writer`. It will generate [this](./io.go)
+
+Usually mock generated files are not version controlled, but I added to present how the generated files look like.
